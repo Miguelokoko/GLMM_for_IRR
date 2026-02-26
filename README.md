@@ -1,8 +1,8 @@
 # GLMM_for_IRR
-Generalized Linear Mixed Models for determining Incidence Risk Ratio for household associated factors leading to increase or decrease of mosquito density indoor
+## Generalized Linear Mixed Models for determining Incidence Risk Ratio for household associated factors leading to increase or decrease of mosquito density indoor
 
 
-CDCLTF<-read.csv("D:/Msc Research Docs/Thesis/CDC-LT Data/CDCLT-FULLDATA.csv")
+```CDCLTF<-read.csv("D:/Msc Research Docs/Thesis/CDC-LT Data/CDCLT-FULLDATA.csv")
 View(CDCLTF)
 names(CDCLTF)
 install.packages("Hmisc")
@@ -289,4 +289,4 @@ sjPlot::plot_models(
   show.p = TRUE,            # Show significance asterisks
   p.style = "asterisk",     # Use asterisk style for p-values
   show.reflvl = TRUE        # Show reference levels
-)
+)```
